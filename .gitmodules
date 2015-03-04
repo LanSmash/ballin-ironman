@@ -1,6 +1,0 @@
-[submodule "libraries/FastLED"]
-	path = libraries/FastLED
-	url = git@github.com:FastLED/FastLED.git
-[submodule "libraries/DMXSerial"]
-	path = libraries/DMXSerial
-	url = git@github.com:mathertel/DMXSerial.git
