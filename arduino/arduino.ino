@@ -103,7 +103,9 @@ void loop() {
   #define DMX_START_ADDRESS 1
   int DMXbyte = DMX_START_ADDRESS;
   
-  // we can only  
+  // *** FastLED ***
+
+  // we can only address 1 strip, temporarily force x=0 and don't loop (leds array is defined as a sinlge strip for now)
   // This outer loop will go over each strip, one at a time
   //for(int x = 0; x < NUM_STRIPS; x++) {
   int x = 0;
